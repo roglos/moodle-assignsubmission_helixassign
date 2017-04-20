@@ -251,7 +251,7 @@ class assign_submission_helixassign extends assign_submission_plugin {
             return helixmedia_get_modal_dialog($helixassignsubmission->preid,
                 "type=".$thumb_type."&".$param,
                 "type=".$type."&".$param, "margin-left:auto;margin-right:auto;",
-                "", "", "", -1, "false", true);
+                "moodle-lti-viewsub-btn.png", "", "", -1, "false", true);
         }
 
         return "<br /><br /><div class='box generalbox boxaligncenter'><p style='text-align:center;'>"
